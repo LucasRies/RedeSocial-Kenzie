@@ -1,0 +1,38 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.postList__main, .postList__titles {
+    font-weight: var(--title1-font-weight);
+    font-size: var(--title1-font-size);
+    line-height: var(--title1-line-height);
+}
+
+.user__name, .postList__name, .suggestion__title {
+    font-weight: var(--title2-font-weight);
+    font-size: var(--title2-font-size);
+    line-height: var(--title2-line-height);
+}
+
+.header__logout, .postList__content, .post__descrition, .post__title, .postList__postText {
+    font-weight: var(--text-font-weight);
+    font-size: var(--text1-font-size);
+    line-height: var(--text1-line-height);
+}
+
+.user__profission, .postList__profission, .header__logout {
+    font-weight: var(--text-font-weight);
+    font-size: var(--text2-font-size);
+    line-height: var(--text2-line-height);
+}
+
+.text3 {
+    font-weight: var(--text-font-weight);
+    font-size: var(--text3-font-size);
+    line-height: var(--text3-line-height);
+}
+
+button {
+    font-weight: var(--text2Bold-font-weight);
+    font-size: var(--text2Bold-font-size);
+}
